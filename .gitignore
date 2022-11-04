@@ -33,3 +33,6 @@ web/sites/default/private/env.json
 
 deploy/dev/drupal-manifest-*
 deploy/col/drupal-manifest-*
+
+#ignore run-time files
+spid_cert/*
