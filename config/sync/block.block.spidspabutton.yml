@@ -5,12 +5,13 @@ dependencies:
   module:
     - spid
     - system
+    - user
   theme:
     - olivero
 id: spidspabutton
 theme: olivero
-region: content
-weight: 0
+region: primary_menu
+weight: -5
 provider: null
 plugin: spid_sp_access_button
 settings:
@@ -18,9 +19,16 @@ settings:
   label: 'SPID SP A button'
   label_display: visible
   provider: spid
-  size: large
+  size: medium
 visibility:
   request_path:
     id: request_path
     negate: false
     pages: /user/login
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

@@ -1,6 +1,6 @@
 _core:
   default_config_hash: qs3XEeYu8vhPpqJxGXAplrDQpVJz0rVrsJwKtbekT0s
-sp_entity_id: 'http://api.drupalspid.local:8080/'
+sp_entity_id: 'http://api.drupalspid.local:8080'
 sp_key_file: ../spid_cert/key.pem
 sp_cert_file: ../spid_cert/crt.pem
 sp_org_name: 'Drupal SPID'
