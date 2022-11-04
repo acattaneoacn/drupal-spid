@@ -45,6 +45,19 @@ For the configuration of the module go to: /admin/config/people/spid.
 
 Then maps the field of the user with the field from the SPID. (CF and mail required)
 
+Go to: /admin/config/people/spid/metadata_idp. And click 'Download metadata'.
+
+## Configure test env
+Clone this repository in a local folder.
+    git clone https://github.com/italia/spid-testenv2.git
+
+Open 'Dockerfile' and replace libffi6 with libffi7.
+
+Open file 'conf/sp_metadata.xml.example'.
+Replace its content with '/admin/config/people/spid/metadata_sp'.
+
+The build docker image:
+    docker build -t italia/spid-testenv2 .
 
 
 

@@ -1,0 +1,26 @@
+uuid: d8bb6ba3-7710-47d2-a3fa-ce863e00b278
+langcode: en
+status: true
+dependencies:
+  module:
+    - spid
+    - system
+  theme:
+    - olivero
+id: spidspabutton
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: spid_sp_access_button
+settings:
+  id: spid_sp_access_button
+  label: 'SPID SP A button'
+  label_display: visible
+  provider: spid
+  size: large
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/login
