@@ -1,0 +1,20 @@
+uuid: 6767c0c1-7a7d-4f61-9be8-dbe7d87b3b94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_cf
+  module:
+    - user
+id: user.user.field_cf
+field_name: field_cf
+entity_type: user
+bundle: user
+label: CF
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

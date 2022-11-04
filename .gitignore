@@ -36,3 +36,4 @@ deploy/col/drupal-manifest-*
 
 #ignore run-time files
 spid_cert/*
+IDPS_metadata/*

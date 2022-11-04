@@ -1,0 +1,14 @@
+diff --git a/templates/spid_sp_access_button.html.twig b/templates/spid_sp_access_button.html.twig
+index 965335d..4f2e24d 100644
+--- a/templates/spid_sp_access_button.html.twig
++++ b/templates/spid_sp_access_button.html.twig
+@@ -32,6 +32,9 @@
+         </li>
+         <li class="spid-idp-button-link" data-idp="timid">
+             <a href="/spid/login/idp_3"><span class="spid-sr-only">Tim ID</span><img src="/{{ img_folder }}/assets/spid-sp-access-button/img/spid-idp-timid.svg" onerror="this.src='img/spid-idp-timid.png'; this.onerror=null;" alt="Tim ID" /></a>
++        </li>
++		<li class="spid-idp-button-link" data-idp="testid">
++            <a href="/spid/login/idp_11"><span class="spid-sr-only">TEST ID</span><img src="/{{ img_folder }}/assets/spid-sp-access-button/img/testid.svg" onerror="this.src='img/testid.png'; this.onerror=null;" alt="TEST ID" /></a>
+         </li>
+         {% if is_testenv_enabled %}
+         <li class="spid-idp-button-link" data-idp="test">

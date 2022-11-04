@@ -9,6 +9,8 @@ module:
   ckeditor: 0
   comment: 0
   config: 0
+  config_filter: 0
+  config_ignore: 0
   contact: 0
   contextual: 0
   datetime: 0
@@ -34,6 +36,7 @@ module:
   rdf: 0
   search: 0
   shortcut: 0
+  spid: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -41,6 +44,7 @@ module:
   tour: 0
   user: 0
   views_ui: 0
+  externalauth: 10
   views: 10
   standard: 1000
 theme:

@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_cf
+    - field.field.user.user.field_mail
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -21,6 +23,22 @@ content:
   contact:
     weight: 5
     region: content
+  field_cf:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_mail:
+    type: string_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   language:
     weight: 0
     region: content

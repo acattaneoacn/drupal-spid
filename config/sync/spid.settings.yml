@@ -1,0 +1,43 @@
+_core:
+  default_config_hash: qs3XEeYu8vhPpqJxGXAplrDQpVJz0rVrsJwKtbekT0s
+sp_entity_id: 'https://drupal'
+sp_key_file: ../spid_cert/key.pem
+sp_cert_file: ../spid_cert/crt.pem
+sp_org_name: 'Drupal SPID'
+sp_org_display_name: 'Drupal SPID'
+idp_metadata_folder: ../IDPS_metadata/
+sp_metadata_attributes:
+  fiscalNumber: fiscalNumber
+  name: 0
+  familyName: 0
+  gender: 0
+  idCard: 0
+  expirationDate: 0
+  dateOfBirth: 0
+  placeOfBirth: 0
+  countyOfBirth: 0
+  digitalAddress: 0
+  email: email
+  mobilePhone: 0
+  companyName: 0
+  registeredOffice: 0
+  ivaCode: 0
+  spidCode: 0
+spid_level: '2'
+accepted_clock_skew_seconds: 300
+user_fiscalNumber: field_cf
+user_name: none
+user_familyName: none
+user_gender: none
+user_idCard: none
+user_expirationDate: none
+user_dateOfBirth: none
+user_placeOfBirth: none
+user_countyOfBirth: none
+user_digitalAddress: none
+user_email: field_mail
+user_mobilePhone: none
+user_companyName: none
+user_registeredOffice: none
+user_ivaCode: none
+user_spidCode: none
